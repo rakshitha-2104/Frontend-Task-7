@@ -14,7 +14,6 @@ function updateTaskCount(change) {
 function addTask() {
     const taskValue = taskInput.value.trim();
 
-    // Input Validation
     if (taskValue === "") {
         errorMsg.classList.remove('hidden');
         return;
