@@ -37,7 +37,6 @@ function addTask() {
     deleteBtn.innerText = "Delete";
     deleteBtn.classList.add('delete-btn');
     
-    // Delete task event
     deleteBtn.addEventListener('click', function() {
         li.remove();
         updateTaskCount(-1);
